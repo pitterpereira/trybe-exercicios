@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------
+ Fluxo para realização dos exercícios:
+---------------------------------------------------------------------------------------
+
+Você vai utilizar a branch main para agregar todos os exercícios desenvolvidos ao longo do curso. Porém, lembre-se de criar uma branch separada para que você possa praticar o fluxo de abrir uma branch, abrir pull request e mergear as alterações. Esse processo é importante, pois este é o mesmo caminho que você fará quando estiver desenvolvendo uma nova feature (funcionalidade) para um projeto quando estiver trabalhando. A seguir estão os passos que deverão ser feitos:
+
+    Utilizar o comando git pull para atualizar a branch main local com a branch remota;
+    Criar uma nova branch para os exercícios do dia;
+    Criar as pastas necessárias;
+    Fazer os exercícios;
+    Abrir o Pull Request para as alterações;
+    (Opcional) Pedir para as pessoas da sua turma realizarem o Code Review;
+    Fazer o merge das alterações na branch main (Mergear a branch). 😁
+    Relembrando 🧠: Realize commits com frequência e cada vez que mergear uma alteração em alguma branch, faça o pull das alterações para manter sua branch local sempre atualizada! Por exemplo: se você fez um merge na sua branch main no GitHub, acesse a sua main local e dê um git pull origin main.
