@@ -1,0 +1,64 @@
+----------------------------------------------------------------------------------------------------------------
+ Exercícios:
+----------------------------------------------------------------------------------------------------------------
+ 
+ Instruções iniciais:
+
+    Crie uma pasta em seu computador;
+    Acesse a pasta que você acabou de criar;
+    Inicie o versionamento por meio do comando git init;
+    Abra a pasta no VS Code por meio do comando code .;
+    Crie um arquivo chamado README.md;
+    Adicione o arquivo novo em staging e realize um commit, como em git add . e git commit -m "Descreva a alteração realizada";
+    Crie uma nova branch por meio do comando git checkout -b, como em git checkout -b adiciona-readme;
+    Faça uma alteração em README.md e, depois, realize um novo commit, como em git add . e git commit -m "Alterando o README";
+    Retorne para a branch main e, em seguida, realize o merge das alterações por meio do comando git merge nome-da-branch, como em git merge adiciona-readme.
+
+ Acesse a branch main e crie uma branch nova chamada atualiza-readme.
+
+    git checkout -b atualiza-readme
+
+ Acesse a branch atualiza-readme e crie um arquivo chamado infos.txt.
+
+    touch infos.txt
+
+ Adicione as alterações em staging e realize um commit.
+
+    git add .
+    git commit -m "Commit solicitado"
+
+ Adicione seu nome e sobrenome ao arquivo infos.txt.
+
+    echo "Pitter Pereira" >> infos.txt 
+
+ Adicione novamente as alterações em staging e realize um commit.
+
+    git add .
+    git commit -m "Commit 2"
+
+ Crie uma branch nova a partir da branch atualiza-readme. A nova branch deve se chamar adiciona-infos.
+
+    git branch adiciona-infos
+
+ Acesse a branch adiciona-infos e utilize sua criatividade para escrever o passo a passo de como o versionamento funciona no README.md.
+
+    cat >> README.md
+    "..."
+    Ctrl + D
+
+ Adicione as alterações em staging e realize o commit.
+
+    git add .
+    git commit -m "Commit 3"
+
+ Volte para a branch atualiza-readme e realize o merge das alterações feitas na branch adiciona-infos.
+
+    git checkout atualiza-readme
+    git merge adiciona-infos
+
+ Retorne para a branch main e realize o merge das alterações.
+
+    git checkout main
+    git merge atualiza-readme
+
+    
