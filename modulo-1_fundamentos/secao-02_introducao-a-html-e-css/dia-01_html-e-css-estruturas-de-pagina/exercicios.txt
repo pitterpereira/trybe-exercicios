@@ -2,13 +2,13 @@
  Exercícios:
 ---------------------------------------------------------------------------------
 
- Exercício 1:
+ Exercício 1 do aprendizado:
 
- Crie uma lista das pessoas com quem você já fez amizade na Trybe.
+    a. Crie uma lista das pessoas com quem você já fez amizade na Trybe.
 
- Adicione uma imagem que venha de uma URL externa.
+    b. Adicione uma imagem que venha de uma URL externa.
 
- Adicione uma imagem que está no seu computador, local.
+    c. Adicione uma imagem que está no seu computador, local.
 
     <!DOCTYPE html>
         <html lang="pt-br">
@@ -22,35 +22,51 @@
                 <li>Thiago</li>
                 <li>Alide</li>
                 <li>Giovanni</li>
+                <li>Kaio</li>
+                <li>João</li>
             </ul>
+
+            <img src="https://picsum.photos/200/300">
+
+            <br>
+
+            <img src="./imagem/imagem-do-pc.jpg">
         </body>
     </html>
 
- Exercício 2:
+ Exercício 2 do aprendizado:
 
-Copie o código acima e então crie um parágrafo para cada pessoa na lista. Escreva uma mensagem bem bonita 😄;
+    a. Copie o código acima e então crie um parágrafo para cada pessoa na lista. Escreva uma mensagem bem bonita 😄;
 
-Crie um link entre a lista e os parágrafos de pessoas;
+    b. Crie um link entre a lista e os parágrafos de pessoas;
 
-Crie um link para a página do Google. Ela deve ser aberta em outra página.
+    c. Crie um link para a página do Google. Ela deve ser aberta em outra página.
 
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>HTML</title>
-    </head>
-    <body>
-        <h1>Exercícios</h1>
-        <ul>
-            <li>Adilson</li>
-            <li>Vinicius</li>
-            <li>Erickson</li>
-            <li>Wilson</li>
-            <li>Juliana</li>
-        </ul>
-    </body>
-</html>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>HTML</title>
+        </head>
+        <body>
+            <h1>Exercícios</h1>
+            <ul>
+                <li><a href="#adilson">Adilson</a></li>
+                <li><a href="#vinicius">Vinicius</a></li>
+                <li><a href="#erickson">Erickson</a></li>
+                <li><a href="#wilson">Wilson</a></li>
+                <li><a href="#juliana">Juliana</a></li>
+            </ul>
+
+            <p id="adilson">Adilson - "uma mensagem bem bonita 😄"</p>
+            <p id="vinicius">Vinicius - "uma mensagem bem bonita 😄"</p>
+            <p id="erickson">Erickson - "uma mensagem bem bonita 😄"</p>
+            <p id="wilson">Wilson - "uma mensagem bem bonita 😄"</p>
+            <p id="juliana">Juliana - "uma mensagem bem bonita 😄"</p>
+
+            <a href="https://www.google.com.br/" target="_blank">Google</a>
+        </body>
+    </html>
 
 
 
