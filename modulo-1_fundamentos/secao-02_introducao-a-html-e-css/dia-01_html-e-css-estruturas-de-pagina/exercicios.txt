@@ -19,7 +19,9 @@
         <body>
             <h1>Exercícios</h1>
             <ul>
-            <li></li>
+                <li>Thiago</li>
+                <li>Alide</li>
+                <li>Giovanni</li>
             </ul>
         </body>
     </html>
