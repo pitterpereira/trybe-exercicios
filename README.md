@@ -1,4 +1,5 @@
 # Meu repositório de exercícios
+---
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Pitter Pereira](https://github.com/pitterpereira/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -23,8 +24,8 @@ Seção 1: Unix, Shell, e Git/GitHub
 Seção 2: Introdução à HTML & CSS
 </summary>
 
-- [ ] 2-1: _HTML & CSS - Estruturas de Página_
-- [ ] 2-2: _HTML & CSS - Primeiros Passos em CSS_
+- [x] 2-1: _HTML & CSS - Estruturas de Página_
+- [x] 2-2: _HTML & CSS - Primeiros Passos em CSS_
 - [ ] 2-3: _HTML & CSS - Seletores e Posicionamento_
 - [ ] 2-4: _HTML Semântico_
 - [ ] 2-5: [_Projeto - Lessons Learned_](#)
