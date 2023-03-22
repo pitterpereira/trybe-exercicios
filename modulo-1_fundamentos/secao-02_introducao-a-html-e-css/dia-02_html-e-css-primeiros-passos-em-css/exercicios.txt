@@ -1,0 +1,47 @@
+---------------------------------------------------------------------------------
+ Exercícios:
+---------------------------------------------------------------------------------
+
+ Exercício 1 do aprendizado:
+
+    a. Modifique o tamanho do h1 para 65 pixels;
+
+    b. Modifique a cor do texto do h1 para laranja;
+
+    c. Modifique a cor de fundo da lista não ordenada;
+
+    d. Crie uma classe para modificar a cor de fundo da tag p e da ul ao mesmo tempo.
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <title>HTML</title>
+            <style>
+            
+                h1 {
+                    font-size: 65px;
+                    color: orange;
+                }
+
+                ul {
+                    
+                    background-color 
+                }
+
+                .fundo-verde {
+                    background-color: green;
+                }
+            
+            </style>
+        </head>
+        <body>
+            <h1>Frutas</h1>
+            <p class="fundo-verde">Qual é a sua fruta favorita?</p>
+            <ul class="fundo-verde">
+                <li>Maçã</li>
+                <li>Banana</li>
+                <li>Goiaba</li>
+            </ul>
+        </body>
+    </html>
