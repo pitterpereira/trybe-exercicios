@@ -1,0 +1,18 @@
+h1,
+p {
+  text-align: center;
+}
+
+h1:active,
+p:active {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ol:hover {
+  background-color: cadetblue;
+}
