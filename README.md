@@ -28,7 +28,7 @@ Seção 2: Introdução à HTML & CSS
 - [x] 2-1: _HTML & CSS - Estruturas de Página_
 - [x] 2-2: _HTML & CSS - Primeiros Passos em CSS_
 - [x] 2-3: _HTML & CSS - Seletores e Posicionamento_
-- [ ] 2-4: _HTML Semântico_
+- [x] 2-4: _HTML Semântico_
 - [ ] 2-5: [_Projeto - Lessons Learned_](#)
 </details>
 
