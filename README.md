@@ -29,7 +29,7 @@ Seção 2: Introdução à HTML & CSS
 - [x] 2-2: _HTML & CSS - Primeiros Passos em CSS_
 - [x] 2-3: _HTML & CSS - Seletores e Posicionamento_
 - [x] 2-4: _HTML Semântico_
-- [ ] 2-5: [_Projeto - Lessons Learned_](#)
+- [x] 2-5: [_Projeto - Lessons Learned_](#)
 </details>
 
 <details>
@@ -37,8 +37,8 @@ Seção 2: Introdução à HTML & CSS
 Seção 3: Introdução à JavaScript
 </summary>
 
-- [ ] 3-1: _Javascript - Primeiros Passos_
-- [ ] 3-2: _Javascript - Array e loop For_
+- [x] 3-1: _Javascript - Primeiros Passos_
+- [x] 3-2: _Javascript - Array e loop For_
 - [ ] 3-3: _Javascript - Funções_
 - [ ] 3-4: _Javascript - Objetos_
 - [ ] 3-5: _Javascript ES6 - let, const, arrow functions e template literals_
